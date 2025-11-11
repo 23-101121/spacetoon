@@ -19,6 +19,7 @@ body {
   padding: 15px 40px;
   background: #07102a;
   border-bottom: 3px solid #f7d046;
+  width: 100%;
 }
 
 #navbar .logo {
@@ -255,6 +256,1103 @@ height: 100px;
   float: right;
   cursor: pointer;
   font-weight: bold;
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+
+}
+.main h1{
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+.main h2{
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.70);
+}
+#schedule {
+  width: 60%;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+  color: black;
+}
+
+.show {
+  background-color: #fff8dc;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.show-type {
+  font-size: 0.8em;
+  background-color: #ffe7a0;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.time {
+  background-color: #ffd280;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.days {
+  display: flex;
+  gap: 20px;
+}
+
+.day {
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: 3px solid #f2de77;
+  background: linear-gradient(180deg, #293556, #2d3a61);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.day:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px #f2de77;
+}
+
+.day.active {
+  background: linear-gradient(135deg, #ff7db3, #8fd3f4);
+  color: white;
+  box-shadow: 0 0 25px rgba(255, 125, 179, 0.6);
+}
+
+@font-face {
+  font-family: Arial;
+  src: url('Arial.ttf');
+}
+
+.bigdiv{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+.herosection{
+  width: 100%;
+  padding: 80px 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.herocontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.herotitle{
+  font-family: Arial;
+  font-size: 48px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+}
+
+.herodesc{
+  font-family: Arial;
+  font-size: 16px;
+  color: #CBD5E1;
+  text-align: center;
+}
+
+.showssection{
+  width: 100%;
+  background: #0F172A;
+  padding: 40px 80px 80px 80px;
+  box-sizing: border-box;
+}
+
+.showscontainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.showcard{
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 16px;
+  width: 31%;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #FBBF24;
+  transition: all 0.3s ease;
+}
+
+.showcard:hover{
+  transform: translateY(-10px);
+}
+
+.showimage{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named space adventures 341020.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.showimage2{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named rainbow friends 341020.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.showimage3{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named magic school 341020.jpg');
+  background-position: center;
+  background-size: cover;}
+
+.showimage4{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named ocean explorers 341020.jpg');
+  background-position: center;
+  background-size: cover;}
+
+.showimage5{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named jungle tales 341020.jpg');
+  background-position: center;
+  background-size: cover;}
+
+.showimage6{
+  width: 100%;
+  height: 180px;
+  background-image: url('Firefly_a photo for a cartoon named robot buddies 341020.jpg');
+  background-position: center;
+  background-size: cover;}
+
+.showbadge{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.showbadge2{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.showbadge3{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.showbadge4{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.showbadge5{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.showbadge6{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #FFF;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #1E293B;
+  font-weight: 700;
+}
+
+.favoriteicon{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.favoriteicon2{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.favoriteicon3{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.favoriteicon4{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.favoriteicon5{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.favoriteicon6{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Icon3.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #FF6B9D;
+}
+
+.showcontent{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 8px;
+}
+
+.showtitle{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showtitle2{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showtitle3{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showtitle4{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showtitle5{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showtitle6{
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.showdesc{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showdesc2{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showdesc3{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showdesc4{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showdesc5{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showdesc6{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.showfooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.showrating{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ratingstar{
+  width: 16px;
+  height: 16px;
+  background-image: url('Icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ratingtext{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.ratingtext2{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.ratingtext3{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.ratingtext4{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.ratingtext5{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.ratingtext6{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.showduration{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.clockicon{
+  width: 16px;
+  height: 16px;
+  background-image: url('Icon2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.durationtext{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.durationtext2{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.durationtext3{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.durationtext4{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.durationtext5{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.durationtext6{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.livesection{
+  width: 100%;
+  padding: 80px 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.livecontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.livebadge{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #F472B6;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.livedot{
+  width: 8px;
+  height: 8px;
+  background: #FFF;
+  border-radius: 50%;
+}
+
+.livetext{
+  font-family: Arial;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.livetitle{
+  font-family: Arial;
+  font-size: 48px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+}
+
+.livedesc{
+  font-family: Arial;
+  font-size: 16px;
+  color: #94A3B8;
+  text-align: center;
+}
+
+.contentrow{
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.videosection{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 65%;
+}
+
+.videocard{
+  display: flex;
+  flex-direction: column;
+  background-image: url('Firefly_a photo for a cartoon named space adventures 341020.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  height: 380px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #60A5FA;
+}
+
+.videoscreen{
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playbtn{
+  width: 60px;
+  height: 60px;
+  background-image: url('Icon6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.videotitle{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.episodetitle{
+  font-family: Arial;
+  font-size: 22px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.episodesubtitle{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.infocard{
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 12px;
+  border: 3px solid #F59E0B;
+}
+
+.infotop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infotitle{
+  font-family: Arial;
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+.recordicon{
+  width: 24px;
+  height: 24px;
+  background-image: url('Icon5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.infodesc{
+  font-family: Arial;
+  font-size: 14px;
+  color: #64748B;
+  line-height: 1.6;
+}
+
+.infobottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.infobadge{
+  padding: 8px 16px;
+  background: #DBEAFE;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #2563EB;
+  font-weight: 700;
+}
+
+.viewercount{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.viewericon{
+  width: 16px;
+  height: 16px;
+  background-image: url('Icon4.png');
+}
+
+.viewertext{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.chatsection{
+  width: 35%;
+}
+
+.chatcard{
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 20px;
+  height: 100%;
+  overflow: hidden;
+  border: 3px solid #10B981;
+}
+
+.chatheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #34D399 0%, #10B981 100%);
+}
+
+.chatlabel{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chaticon{
+  width: 20px;
+  height: 20px;
+  background: #FFF;
+  border-radius: 50%;
+}
+
+.chattext{
+  font-family: Arial;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.chatmessages{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  flex: 1;
+}
+
+.messagebubble{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #F9FAFB;
+  padding: 12px;
+  border-radius: 12px;
+  border-left: 3px solid #EC4899;
+}
+
+.messagebubble2{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #F9FAFB;
+  padding: 12px;
+  border-radius: 12px;
+  border-left: 3px solid #3B82F6;
+}
+
+.messagebubble3{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #F9FAFB;
+  padding: 12px;
+  border-radius: 12px;
+  border-left: 3px solid #8B5CF6;
+}
+
+.messagebubble4{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #F9FAFB;
+  padding: 12px;
+  border-radius: 12px;
+  border-left: 3px solid #F59E0B;
+}
+
+.username{
+  font-family: Arial;
+  font-size: 13px;
+  color: #EC4899;
+  font-weight: 700;
+}
+
+.username2{
+  font-family: Arial;
+  font-size: 13px;
+  color: #3B82F6;
+  font-weight: 700;
+}
+
+.username3{
+  font-family: Arial;
+  font-size: 13px;
+  color: #8B5CF6;
+  font-weight: 700;
+}
+
+.username4{
+  font-family: Arial;
+  font-size: 13px;
+  color: #F59E0B;
+  font-weight: 700;
+}
+
+.usermessage{
+  font-family: Arial;
+  font-size: 13px;
+  color: #1F2937;
+}
+
+.usermessage2{
+  font-family: Arial;
+  font-size: 13px;
+  color: #1F2937;
+}
+
+.usermessage3{
+  font-family: Arial;
+  font-size: 13px;
+  color: #1F2937;
+}
+
+.usermessage4{
+  font-family: Arial;
+  font-size: 13px;
+  color: #1F2937;
+}
+
+.chatinput{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  border-top: 2px solid #F3F4F6;
+}
+
+.inputtext{
+  flex: 1;
+  font-family: Arial;
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.sendbtn{
+  padding: 8px 20px;
+  background: #10B981;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sendbtn:hover{
+  background: #059669;
+}
+
+.upnextsection{
+  width: 100%;
+  background: #0F172A;
+  padding: 40px 80px 80px 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.upnextcontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.upnexttitle{
+  font-family: Arial;
+  font-size: 32px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+}
+
+.upnextrow{
+  display: flex;
+  gap: 24px;
+}
+
+.upnextcard{
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 16px;
+  width: 25%;
+  overflow: hidden;
+  border: 3px solid #FBBF24;
+  transition: all 0.3s ease;
+}
+
+.upnextcard:hover{
+  transform: translateY(-8px);
+}
+
+.upnextimage{
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(135deg, #34D399 0%, #10B981 100%);
+}
+
+.upnextimage2{
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(135deg, #F472B6 0%, #EC4899 100%);
+}
+
+.upnextimage3{
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(135deg, #60A5FA 0%, #3B82F6 100%);
+}
+
+.upnextimage4{
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 100%);
+}
+
+.upnextcontent{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 6px;
+}
+
+.upnextname{
+  font-family: Arial;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.upnextname2{
+  font-family: Arial;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.upnextname3{
+  font-family: Arial;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.upnextname4{
+  font-family: Arial;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.upnexttime{
+  font-family: Arial;
+  font-size: 13px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.upnexttime2{
+  font-family: Arial;
+  font-size: 13px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.upnexttime3{
+  font-family: Arial;
+  font-size: 13px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.upnexttime4{
+  font-family: Arial;
+  font-size: 13px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 footer{

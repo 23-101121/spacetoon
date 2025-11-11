@@ -1,4 +1,38 @@
-// ====== HERO SECTION FROM JS ======
+ // Step 1: Create an array of objects
+    let shows = [
+      { name: "Rainbow Friends", type: "Comedy", time: "08:00 AM" },
+      { name: "Magic School", type: "Educational", time: "08:30 AM" },
+      { name: "Space Adventures", type: "Action", time: "09:00 AM" },
+      { name: "Ocean Explorers", type: "Adventure", time: "09:30 AM" },
+      { name: "Robot Buddies", type: "Sci-Fi", time: "10:00 AM" },
+      { name: "Jungle Tales", type: "Adventure", time: "10:30 AM" },
+      { name: "Ocean Explorers", type: "Adventure", time: "09:30 AM" },
+      { name: "Robot Buddies", type: "Sci-Fi", time: "10:00 AM" },
+      { name: "Jungle Tales", type: "Adventure", time: "10:30 AM" }
+    ];
+
+    // Step 2: Create a variable to store the HTML content
+    let scheduleHTML = "";
+
+    // Step 3: Loop through the shows
+    for (let i = 0; i < shows.length; i++) {
+      scheduleHTML += `
+        <div class="show">
+          <div>
+            <strong>${shows[i].name}</strong><br>
+            <span class="show-type">${shows[i].type}</span>
+          </div>
+          <div class="time">${shows[i].time}</div>
+        </div>
+      `;
+    }
+
+    // Step 4: Display in HTML
+    document.getElementById("schedule").innerHTML = scheduleHTML;
+
+
+
+    // ====== HERO SECTION FROM JS ======
 let homeSection = document.getElementById("home");
 
 let heroContent = `
@@ -146,5 +180,3 @@ for (let i = 0; i < shows.length; i++) {
 
 // Step 4: Display in HTML
 document.getElementById("schedule").innerHTML = scheduleHTML;
-
-
